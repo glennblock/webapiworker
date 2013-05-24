@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ServiceDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="gbwebapiworker" schemaVersion="2012-10.1.8" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+<ServiceDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="gbwebapiworker" schemaVersion="2013-03.2.0" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
   <WorkerRole name="WorkerRole1">
     <Runtime executionContext="elevated"></Runtime>
     <Endpoints>
-      <InputEndpoint name="HttpIn" protocol="http" port="80" localPort="8080"/>
+      <InputEndpoint name="HttpIn" protocol="http" port="80" localPort="8080" />
     </Endpoints>
   </WorkerRole>
 </ServiceDefinition>
