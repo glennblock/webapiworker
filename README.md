@@ -14,9 +14,9 @@ This sample demonstrates a Hello API using ASP.NET Web API self-hosted in Worker
 
 * `OnStart` calls the `Listen` method to start the Web Api Host.
 * `Listen` does the following
-  * The host address is constructed by pulling the Address and Port from the input endpoint. (l48)
-  * An `HttpSelfHostConfiguration` object is constructed passing in the host address (l50)
-  * The default route is mapped on the config object (l53)
-  * An `HttpSelfHostServer` is constructed (l57)
-  * The server is opened. (l59)
-* `OnStop` closes the server (l42)
+  * The host address is constructed by pulling the Address and Port from the input endpoint. (L48)
+  * An `HttpSelfHostConfiguration` object is constructed passing in the host address (L50)
+  * The default route is mapped on the config object (L53)
+  * An `HttpSelfHostServer` is constructed (L57)
+  * The server is opened. (L59)
+* `OnStop` closes the server (L42)
